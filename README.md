@@ -1,13 +1,9 @@
 # FinalProject4
 
-![Alt Text](https://media.giphy.com/media/8mbkWu1aYQeXqxXq1H/giphy.gif)
+![Alt Text]("https://giphy.com/embed/fp0MsYYaQQtQtCJXxr")
 
 ## About this project:
-Apart from random project name because we are confused as to which Group project we are on (dont worry! it has nothing to do with our current dataset we are going to pulled... this Project basically about...... :bowtie: Owning Vehicle in Straya! :koala: :car:)
-
-As an avid motorist and atypical professional questioner that like to ask "why? How? When? Who? What?" :innocent: we came across the dataset from ABS for personal income in Australia within certain period of time. From there, we want to compare the number of motor vehicle registration, average age used (vehicle) by state, particular motor vehicle brand by each state in Australia, and in addition we also take consideration by the population for each state.. since you know not all state in Australia is as popular as NSW #TEAMNSW :heartpulse: Little that we know, from random thought came to our mind, this project came along and now you can see the result in this page. We hope the readers find this as amusing as us :boom:
-
-Data is derived from the Australian Bureau Statistics dataset in order to illustrate the relationship between owning the motor vechicles and your average personal Income within the state. On the side notes, you can also see the data spans between 2016 to 2021.
+Lorem Ipsum
 
 ## Approach
 1. Identify data sources and dependencies
