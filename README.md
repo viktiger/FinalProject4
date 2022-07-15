@@ -1,6 +1,6 @@
 # FinalProject4
 
-![Alt Text]("https://giphy.com/embed/fp0MsYYaQQtQtCJXxr")
+![Alt Text](https://media.giphy.com/media/fp0MsYYaQQtQtCJXxr/giphy.gif)
 
 ## About this project:
 Lorem Ipsum
@@ -19,7 +19,7 @@ Lorem Ipsum
 
 
 ## **Data Sources:**
-Data is derived from the ABS. Data spans 2016 till 2021. 
+Data is derived from Kaggle. Data spans 2016 till 2021. ***
 - [ABS employee earnings](https://www.abs.gov.au/statistics/labour/earnings-and-working-conditions/employee-earnings-and-hours-australia/may-2021#data-download)
 - [ABS motor vehicles census](https://www.abs.gov.au/statistics/industry/tourism-and-transport/motor-vehicle-census-australia/31-jan-2021#data-download)
 - [ABS Australian population](https://www.abs.gov.au/statistics/people/population/national-state-and-territory-population/sep-2021)
