@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Doctor's Survey Questions</title>
+    <style>
+        .formBox{
+            padding: 0.5rem 2rem;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div class="formBox">
+            <label for="title">Itching:</label>
+            <input type="text" id="title" placeholder="1 = YES, 0 = NO"/>
+        </div>
+        <div class="formBox">
+            <label for="title">Rash:</label>
+            <input type="text" id="title2" placeholder="1 = YES, 0 = NO"/>
+        </div>
+        <div class="formBox">
+            <label for="title">Nodal Skin Eruptions:</label>
+            <input type="text" id="title3" placeholder="1 = YES, 0 = NO"/>
+        </div>
+        <div class="formBox">
+            <label for="title">Continuous Sneezing:</label>
+            <input type="text" id="title4" placeholder="1 = YES, 0 = NO"/>
+        </div>
+        <div class="formBox">
+            <label for="title">Shivering:</label>
+            <input type="text" id="title5" placeholder="1 = YES, 0 = NO"/>
+        </div>
+        <div class="formBox">
+            <label for="title">Chills:</label>
+            <input type="text" id="title6" placeholder="1 = YES, 0 = NO"/>
+        </div>
+        <div class="formBox">
+            <button id="btn">Submit</button>
+        </div>
+        <div id="msg">
+            <pre>Hit the SUBMIT button to get a JSON list of the results.</pre>
+        </div>
+    </form>
+
+    <script>
+        let patient_results = [];
+        const addPatientData = (ev)=>{
+
+            //To stop the form submitting:
+            ev.preventDefault();  
+            let symptom_check = {
+                id: Date.now(),
+                itching: document.getElementById('title').value,
+                skin_rash: document.getElementById('title2').value,
+                nodal_skin_eruptions: document.getElementById('title3').value,
+                continuous_sneezing: document.getElementById('title4').value,
+                shivering: document.getElementById('title5').value,
+                chills: document.getElementById('title6').value
+            }
+            patient_results.push(symptom_check);
+
+            //To clear the form for the next entries:
+            document.forms[0].reset(); 
+
+            //To display the JSON data:
+            console.warn('added' , {patient_results} );
+            let pre = document.querySelector('#msg pre');
+            pre.textContent = '\n' + JSON.stringify(patient_results, '\t', 2);
+
+            //To save the data to localStorage:
+            localStorage.setItem('MyPatientList', JSON.stringify(patient_results) );
+        }
+
+        document.addEventListener('DOMContentLoaded', ()=>{
+            document.getElementById('btn').addEventListener('click', addPatientData);
+        });
+    </script>
+
+</body>
+</html>
