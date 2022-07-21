@@ -3,20 +3,21 @@
 ![Alt Text](https://media.giphy.com/media/fp0MsYYaQQtQtCJXxr/giphy.gif)
 
 ## About this project:
-Lorem Ipsum
+To build a patient prognosis tool. Simply input symptoms and machine learning will do the heavy lifting to predict a prognosis.
 
 ## Approach
-(1) Training and Test CSV data stored in AWS.
-(2) Training and Test CSV data imported into Jupyter notebook where ETL is performed on Pandas dataframes.
-(3) ML is done on Training and Test dataframes in Jupyter.
-(4) An html survey collects 'real' patient data in JSON form.
-(5) That 'real' JSON data is then uploaded to MongoDB.
-(6) GitBash is used to export 'real' data from MongoDB in CSV form.
-(7) CSV of 'real' data imported into original Jupyter notebook.
-(8) Lastly, 'real' patient data is fed to the ML model and a prediction is made.
+(1) Training and Test CSV data stored in AWS.\
+(2) Training and Test CSV data imported into Jupyter notebook where ETL is performed on Pandas dataframes.\
+(3) ML is done on Training and Test dataframes in Jupyter.\
+(4) An html survey collects 'real' patient data in JSON form.\
+(5) That 'real' JSON data is then uploaded to MongoDB.\
+(6) GitBash is used to export 'real' data from MongoDB in CSV form.\
+(7) CSV of 'real' data imported into original Jupyter notebook.\
+(8) Lastly, 'real' patient data is fed to the ML model and a prediction is made.\
+Note: in step 6 rather than the in-built export feature in MongoDB, it's because it gets around the alphabetisation of columns that I messaged you about the other day. The code we use specifies the column order so that it exports exactly as we want it.
 
 ## **Architectural Diagram:**
-
+HTML Input Form → JSON Output → Flask API → Import API using Python → Run Python Script → Machine Learning Prediction & Output
 
 ## **Data Sources:**
 Data is derived from Kaggle. Data spans 2016 till 2021. ***
@@ -42,11 +43,10 @@ Data is derived from Kaggle. Data spans 2016 till 2021. ***
 ## **Limitations, Assumptions & Challenges:**
 - Interpretations of symptoms
 - Recommend Doctor to complete the form on behalf of patient
-
-## **Visualizations & Analysis:**
+- Only set prognosis predicted e.g. no mental health prognosis 
 
 ## **Observations:**
-Lorem Ipsum
+97% Machine Learning accuracy in predicting prognosis based on 132 input symptoms
 
 ## **Output Design:**
 This application includes input webpage with intent to provide prognosis output using HTML, Python, and Machine Learning.
