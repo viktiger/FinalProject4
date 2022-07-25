@@ -19,8 +19,8 @@ Note: in step 6 rather than the in-built export feature in MongoDB, it's because
 HTML Input Form → JSON Output → Flask API → Import API using Python → Run Python Script → Machine Learning Prediction & Output
 
 ## **Data Sources:**
-Data is derived from Kaggle. Data spans 2016 till 2021. ***
-- [ABS employee earnings](https://www.abs.gov.au/statistics/labour/earnings-and-working-conditions/employee-earnings-and-hours-australia/may-2021#data-download)
+Data is derived from Kaggle. Data spans across 42 differnt prognoses. 
+- [Disease Prediction](https://www.kaggle.com/datasets/kaushil268/disease-prediction-using-machine-learning)
 
 ## **Coding Languages:**
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
