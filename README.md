@@ -1,8 +1,4 @@
 # FinalProject4
-
-## About this project:
-
-## Approach
 ![Alt Text](https://media.giphy.com/media/fp0MsYYaQQtQtCJXxr/giphy.gif)
 
 ## About this project:
