@@ -1,6 +1,5 @@
 # FinalProject4
 
-<<<<<<< HEAD
 ## About this project:
 
 ## Approach
@@ -30,9 +29,6 @@ HTML Input Form → JSON Output → Flask API → Import API using Python → Ru
 =======
 Data is derived from Kaggle. Data spans 2016 till 2021. ***
 - [ABS employee earnings](https://www.abs.gov.au/statistics/labour/earnings-and-working-conditions/employee-earnings-and-hours-australia/may-2021#data-download)
-- [ABS motor vehicles census](https://www.abs.gov.au/statistics/industry/tourism-and-transport/motor-vehicle-census-australia/31-jan-2021#data-download)
-- [ABS Australian population](https://www.abs.gov.au/statistics/people/population/national-state-and-territory-population/sep-2021)
->>>>>>> 789ee4b83ec1b7d344e3274b4ae2a01f3cfeabe1
 
 ## **Coding Languages:**
 
@@ -43,7 +39,6 @@ Data is derived from Kaggle. Data spans 2016 till 2021. ***
 ## **IDE:**
 
 ## **Limitations, Assumptions & Challenges:**
-<<<<<<< HEAD
 
 ## **Visualizations & Analysis:**
 
@@ -60,7 +55,6 @@ Data is derived from Kaggle. Data spans 2016 till 2021. ***
 
 ## **Output Design:**
 This application includes input webpage with intent to provide prognosis output using HTML, Python, and Machine Learning.
->>>>>>> 789ee4b83ec1b7d344e3274b4ae2a01f3cfeabe1
 
 ## **Project Authors:**
 Authors:
